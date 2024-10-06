@@ -6,8 +6,7 @@
   outputs = {
     self,
     nixpkgs,
-    flake-utils,
-    rust-overlay,
+    flake-utils
   }:
     flake-utils.lib.eachDefaultSystem
     (
